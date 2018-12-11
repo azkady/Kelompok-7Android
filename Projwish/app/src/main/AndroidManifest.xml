@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vfairoh.projwish">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/coba"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/coba"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Transaksi"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WishList"
+            android:label="@string/title_activity_wish_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Laporan"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AllWishlist"
+            android:label="@string/title_activity_all_wishlist"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LaporanUpdate"
+            android:label="@string/title_activity_laporan_update"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".WishlistUpdate"
+            android:label="@string/title_activity_wishlist_update"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".RekapCustom" />
+        <activity
+            android:name=".Rekap"
+            android:label="@string/title_activity_rekap"
+            android:theme="@style/AppTheme">
+
+        </activity>
+    </application>
+
+</manifest>

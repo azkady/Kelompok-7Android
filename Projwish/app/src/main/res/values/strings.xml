@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Keuanganku</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="type">
+        <item>Pemasukan</item>
+        <item>Pengeluaran</item>
+    </string-array>
+    <string name="title_activity_wish_list">WishList</string>
+    <string name="title_activity_laporan">Laporan</string>
+    <string name="title_activity_all_wishlist">AllWishlist</string>
+    <string name="title_activity_laporan_update">LaporanUpdate</string>
+    <string name="title_activity_wishlist_update">WishlistUpdate</string>
+    <string name="title_activity_rekap">Rekap</string>
+</resources>
